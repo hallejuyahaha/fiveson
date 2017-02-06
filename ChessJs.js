@@ -47,7 +47,7 @@ for (var i = 0; i < 11; i++) {
 }
 //反斜线
 for (var i = 0; i < 11; i++) {
-    for (var j = 14; j < 3; j--) {
+    for (var j = 14; j > 3; j--) {
         for (var k = 0; k < 5; k++) {
             wins[i + k][j - k][count] = true;
         }
